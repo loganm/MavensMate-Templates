@@ -1,3 +1,3 @@
-public interface IOpportunitiesService
+public interface {{ api_name }}
 {
 }
