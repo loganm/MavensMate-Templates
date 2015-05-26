@@ -1,0 +1,3 @@
+public interface IOpportunities extends fflib_ISObjectDomain
+{
+}
