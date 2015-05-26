@@ -84,6 +84,19 @@
 			]
 		},
 		{
+			"name" 			: "DomainInterface",
+			"file_name"		: "DomainInterface.cls",
+			"description" 	: "Apex Enterprise Patterns Domain Interface",
+			"author" 		: "Logan Moore @loganmoorenz",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Domain interface name",
+					"default"		: "IInvoices"
+				}
+			]
+		},
+		{
 			"name" 			: "Email Service",
 			"file_name"		: "EmailServiceApexClass.cls",
 			"description" 	: "Template for an Apex Email Service",
@@ -152,7 +165,20 @@
 					"default"		: "Invoice__c"
 				}
 			]
-		},		
+		},
+		{
+			"name" 			: "SelectorInterface",
+			"file_name"		: "SelectorInterface.cls",
+			"description" 	: "Apex Enterprise Patterns Selector Interface",
+			"author" 		: "Logan Moore @loganmoorenz",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Selector interface name",
+					"default"		: "IInvoicesSelector"
+				}
+			]
+		},	
 		{
 			"name" 			: "ServiceClass",
 			"file_name"		: "ServiceClass.cls",
@@ -161,11 +187,24 @@
 			"params"		: [
 				{
 					"name"			: "api_name",
-					"description"	: "Service class name (e.g. InvoiceService)",
-					"default"		: "InvoiceService"
+					"description"	: "Service class name (e.g. InvoicesService)",
+					"default"		: "InvoicesService"
 				}
 			]
-		},		
+		},
+		{
+			"name" 			: "ServiceInterface",
+			"file_name"		: "ServiceInterface.cls",
+			"description" 	: "Apex Enterprise Patterns Service Interface",
+			"author" 		: "Logan Moore @loganmoorenz",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Service interface name",
+					"default"		: "IInvoicesService"
+				}
+			]
+		},
 		{
 			"name"			: "Trigger Handler",
 			"file_name"		: "TriggerHandler.cls",
