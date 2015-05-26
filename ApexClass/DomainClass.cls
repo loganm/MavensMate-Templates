@@ -12,11 +12,11 @@
  *   https://developer.salesforce.com/page/Apex_Enterprise_Patterns_-_Domain_Layer
  *
  **/
-public class {{ api_name }} extends fflib_SObjectDomain 
+public class {{ api_name }} extends fflib_SObjectDomain
 {
-	public {{ api_name }}(List<{{ object_name }}> records) 
+	public {{ api_name }}(List<{{ object_name }}> records)
 	{
-		super(records);	
+		super(records);
 	}
 
 	public override void onValidate()
@@ -53,5 +53,5 @@ public class {{ api_name }} extends fflib_SObjectDomain
 		{
 			return new {{ api_name }}(sObjectList);
 		}
-	}	
+	}
 }
