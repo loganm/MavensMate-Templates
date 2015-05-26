@@ -1,3 +1,3 @@
-public interface IOpportunitiesSelector extends fflib_ISObjectSelector 
+public interface {{ api_name }} extends fflib_ISObjectSelector 
 {
 }
