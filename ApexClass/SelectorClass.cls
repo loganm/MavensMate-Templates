@@ -7,9 +7,7 @@ public class {{ api_name }} extends fflib_SObjectSelector
 {
 	public List<Schema.SObjectField> getSObjectFieldList()
 	{
-		return new List<Schema.SObjectField> {
-			{{ object_name }}.Id
-		};
+		return getSObjectType().getDescribe().fields.getMap().values();
 	}
 
 	public Schema.SObjectType getSObjectType()
